@@ -3,8 +3,8 @@ trigger:
 
 strategy:
   matrix:
-    linux:
-      operatingSystem: 'debian-latest'
+    windows:
+      operatingSystem: 'windows-latest'
     mac:
       operatingSystem: 'macos-latest'
 pool:
